@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  margin: 10px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+/* CONTAINER STYLES */
+.container {
+  max-width: 228px;
+  height: 340px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+/* IMAGE STYLE */
+
+.qr-code {
+  width: 200px;
+  margin: 6% 6%;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+/* TEXT STYLES */
+.text {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.text-2 {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 1.2rem;
+}
